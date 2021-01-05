@@ -1,10 +1,11 @@
-import './App.css';
-import MediaCard from './components/ContactInfo';
+import "./App.css";
+import ProductCatalog from "./components/Catalog/ProductCatalog";
+import ProductCatalogContainer from "./components/Catalog/ProductCatalogContainer";
 
 function App() {
   return (
     <div className="App">
-        <MediaCard />
+      <ProductCatalog />
     </div>
   );
 }
